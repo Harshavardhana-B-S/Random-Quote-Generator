@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5372F0;
+}
+
+.container {
+    /* border: 2px solid rgb(66, 147, 201); */
+    background-color: #fff;
+    width: 700px;
+    padding: 24px;
+    margin: 0px auto;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+.quoteArea{
+    padding: 10px;
+}
+
+#quoteSymbol{
+    margin-left: 600px;
+    margin-top: -30px;
+}
+#randomQuote {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: larger;
+    padding: 13px 40px;
+    border-radius: 30px;
+    background-color: #5372F0;
+    color: #ffff;
+
+}
+
+.authors {
+    display: inline-block;
+    background-color: #5372F0;
+    color: #ffff;
+    padding: 10px 24px;
+    border-radius: 20px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#random-authors {
+    margin-left: 70px;
+}
+
+#quoteDisplay {
+    width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    /* margin-top: 20px; */
+}
+
+.border{
+    border-bottom: 1px solid #5372F0;
+    margin-bottom: 15px;
+}
+
+.quote {
+    background-color: #fff;
+    color: #2d53ea;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.intro-card{
+    border-bottom: 1px solid white;
+    background-color: whitesmoke;
+    color: #5372F0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.name{
+    font-weight:bolder;
+    font-size: 25px;
+    
+}
+
+#authorName{
+    font-size:18px;
+    font-style: italic;
+    margin-left: 450px;
+    margin-top:10px;
+}
+
+.quote1{
+    background-color: #fff;
+    color: #5372F0;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+ @media only screen and (max-width:577px) {
+
+    .intro-card{
+      padding: 15px;  
+    }
+
+    .btn{
+        padding: 15px;
+        width: 130px;
+    }
+
+    .container{
+        width: 320px;
+    }
+
+    #quoteSymbol{
+        margin-left: 280px;
+    }
+
+    #authorName{
+        margin-left:150px;
+    }
+
+    #quoteDisplay{
+        margin-top: 50px;
+        width: 370px;
+    }
+}
